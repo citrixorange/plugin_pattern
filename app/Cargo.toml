@@ -1,0 +1,9 @@
+[package]
+name = "app"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+counter_static_lib = { path = "/home/cesar/Projects/Rust/algorithms/counter/counter_static_lib", edition = "2021" }
